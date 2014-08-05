@@ -14,7 +14,70 @@ $ npm install app-annie-api
 
 Create a new instance:
 
+``` js
+var AppAnnie = require('app-annie-api');
+
+var annie = new AppAnnie({
+  apiKey: '',
+  accountId: '',
+  appId: '',
+  market: ''
+});
+```
+
 ## API
+
+### appList()
+
+### appSales()
+
+### appReviews()
+
+### appRanks()
+
+### appRatings()
+
+### appFeatures()
+
+### appDetails()
+
+### accountList()
+
+### accountSales()
+
+### accountApps()
+
+### accountIaps()
+
+### sharingApps()
+
+### Query.startDate(date)
+
+**Alias:** start
+
+### Query.endDate(date)
+
+**Alias:** end
+
+### Query.pageIndex(page)
+
+**Alias:** page
+
+### Query.currency(currency)
+
+### Query.countries(countries)
+
+### Query.breakDown(breakDown)
+
+### Query.interval(interval)
+
+### Query.feed(feed)
+
+### Query.device(device)
+
+### Query.version(version)
+
+### Query.exec([callback])
 
 ## License
 
