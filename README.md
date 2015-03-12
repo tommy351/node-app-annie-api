@@ -25,6 +25,15 @@ var annie = new AppAnnie({
 });
 ```
 
+Functions exposed by the module return a query.  Call exec() on it to execute the query.
+
+``` js
+annie.appReviews().exec(function(error,result) {
+	console.log(result);
+});
+
+```
+
 ## API
 
 ### appList()
