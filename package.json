@@ -1,6 +1,6 @@
 {
   "name": "app-annie-api",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "App Annie API for Node.js",
   "main": "lib/index",
   "scripts": {
